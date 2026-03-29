@@ -3,7 +3,7 @@ import React from 'react'
 const Nav = () => {
   return (
     <div className='flex justify-between p-6 bg-zinc-50 shadow-lg'>
-    <h2 className=' font-bold text-2xl bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent'>DigiTools</h2>
+    <h2 className=' font-bold text-3xl bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent'>DigiTools</h2>
     
     <div className='flex  gap-4 left-2.5'>
         <p className='text-[#101727] font-bold hover:text-pink-500  cursor-pointer'>Products</p>
