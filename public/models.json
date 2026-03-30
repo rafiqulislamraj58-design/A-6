@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder",
+    "description": "Make professional resumes easily.",
+    "price":  10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Templates", "PDF Export", "ATS Friendly"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Kit",
+    "description": "Create your personal website.",
+    "price":  25,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Responsive", "Custom Design", "SEO Ready"],
+    "icon": "🌐"
+  },
+  {
+    "id": 3,
+    "name": "Post Scheduler",
+    "description": "Schedule social media posts.",
+    "price":  15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Auto Post", "Analytics", "Multi Platform"],
+    "icon": "📅"
+  },
+  {
+    "id": 4,
+    "name": "UI Kit",
+    "description": "Ready UI components for design.",
+    "price":  30,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Figma Ready", "Reusable", "Dark Mode"],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "Video Toolkit",
+    "description": "Edit videos like a pro.",
+    "price":  20,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Effects", "Transitions", "Color Tools"],
+    "icon": "🎬"
+  },
+  {
+    "id": 6,
+    "name": "SEO Tool",
+    "description": "Boost your website ranking.",
+    "price":  18,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Keywords", "Site Audit", "Backlinks"],
+    "icon": "📈"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Tool",
+    "description": "Send bulk emails and track performance.",
+    "price":  12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Email Templates", "Analytics", "Automation"],
+    "icon": "📧"
+  },
+  {
+    "id": 8,
+    "name": "Logo Maker",
+    "description": "Create professional logos instantly.",
+    "price":  22,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["AI Design", "High Resolution", "Editable Files"],
+    "icon": "🧩"
+  }
+]
