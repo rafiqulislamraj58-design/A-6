@@ -1,7 +1,7 @@
 import React, {use, useState } from 'react'
 import { toast } from 'react-toastify'
 
-const Models = ({modelsPromise,active,setactive}) => {
+const Models = ({modelsPromise,active,setactive,cartItems,setcartItems}) => {
     const models = use(modelsPromise)
     const [isAdd, setisAdd] = useState([])
     
@@ -13,11 +13,7 @@ const Models = ({modelsPromise,active,setactive}) => {
     </div>
   
  
-<div className="tabs tabs-box bg-transparent justify-center">
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 " aria-label="Products"  onClick={()=>setactive("Products") } defaultChecked/>
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 " aria-label="Cart" 
-  onClick={()=>setactive("Cart")}  />
-</div>
+
   {active==="Products" &&(  <div className='container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-3.5 w-11/12  ' >
         {models.map(model=><div key={model.id}>
             <div className='border-zinc-500 border-2 rounded-md w-full p-6 transform transition-transform duration-300 hover:scale-101 hover:shadow-lg shadow-purple-500/50 '>
@@ -32,6 +28,7 @@ const Models = ({modelsPromise,active,setactive}) => {
 <p className='font-bold text-2xl'> ${model.price} <span className='text-zinc-400'>/{model.period}</span></p>
 <p>{model.features.map(item=><div > <span className='text-green-500'> <i className="ri-check-line"></i></span> {item}</div>)}</p>
 <button onClick={()=>{setisAdd([...isAdd,model.id])
+setcartItems([...cartItems,model]) 
 toast.success('added to cart')}} className='rounded-full py-1.5  w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white mt-3.5 transform duration-200 hover:translate-y-0.5 hover:shadow-lg shadow-purple-500/50'> {isAdd.includes(model.id)? "added to cart":"Buy"}</button>
         </div>
         </div>)}
