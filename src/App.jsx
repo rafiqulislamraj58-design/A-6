@@ -36,7 +36,7 @@ const clearCart = ()=>{
   console.log(active);
   return (
     <>
-   <Nav></Nav>
+   <Nav cartItems={cartItems} />
    <Banner/>
    <Starts />
    <Start  active={active} setactive={setactive} />

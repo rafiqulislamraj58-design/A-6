@@ -1,4 +1,5 @@
 import React from 'react'
+import { toast } from 'react-toastify'
 
 const Cart = ({cartItems,removeCart,clearCart}) => {
 const total = cartItems.reduce((sum,item)=>{
@@ -26,7 +27,8 @@ return sum+item.price},0)
 </div>
       
 
-     <button onClick={()=>removeCart(item.id)} className='text-xl text-yellow-500 mt-1.5'>remove</button>
+     <button onClick={()=>{removeCart(item.id)
+     toast.success('cart removed')}} className='text-xl text-yellow-500 mt-1.5'>remove</button>
 
      </div>
     
@@ -38,7 +40,8 @@ return sum+item.price},0)
  <div className='text-2xl font-bold'>Total</div>
  <div className='text-2xl font-bold'>${total}</div>
     </div>
-    <button onClick={clearCart} className='w-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-md mb-5 py-2'>Proceed to Checkout</button>
+    <button onClick={()=>{clearCart()
+    toast.success('chack out success')}} className='w-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-md mb-5 py-2'>Proceed to Checkout</button>
     </div>
   )
 }
