@@ -9,6 +9,7 @@ import Starts from './Componatnt/Starts'
 import Models from './Componatnt/Models'
 import Cart from './Componatnt/Cart'
 import Start from './Componatnt/Start'
+import Started from './Componatnt/Started'
 
 
 
@@ -49,6 +50,7 @@ const clearCart = ()=>{
   clearCart={clearCart}
    />)}
    {active==="Cart" &&(<Cart cartItems={cartItems}  removeCart={removeCart}  clearCart={clearCart} />)}
+   <Started/>
    <Footer></Footer>
     </>
   )
