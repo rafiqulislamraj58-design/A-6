@@ -35,16 +35,7 @@ This is a modern web application where users can explore different digital tools
 
 👉 
 
----
 
-## 📂 Installation
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-npm install
-npm run dev
-```
 
 ---
 
