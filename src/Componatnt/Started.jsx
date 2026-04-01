@@ -7,7 +7,7 @@ const Started = () => {
     <h1 className='font-bold text-2xl '>Get Started in 3 Steps</h1>
     <p className='text-gray-400'>Start using premium digital tools in minutes, not hours.</p>
     </div>
-    <div className='sm:grid grid-cols-1  md: grid-cols-3 gap-3.5'>
+    <div className=' sm:grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-3.5'>
  <div className="card bg-base-100 w-full  shadow-sm p-10 hover:translate-y-0.5 hover:shadow-lg shadow-purple-500/50 ">
   <div className="card-body flex justify-center items-center">
   <div className='bg-purple-500/60 rounded-full flex justify-center items-center w-16 h-16'>

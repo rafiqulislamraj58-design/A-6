@@ -10,6 +10,7 @@ import Models from './Componatnt/Models'
 import Cart from './Componatnt/Cart'
 import Start from './Componatnt/Start'
 import Started from './Componatnt/Started'
+import Priceing from './Componatnt/Priceing'
 
 
 
@@ -50,7 +51,9 @@ const clearCart = ()=>{
   clearCart={clearCart}
    />)}
    {active==="Cart" &&(<Cart cartItems={cartItems}  removeCart={removeCart}  clearCart={clearCart} />)}
-   <Started/>
+   {active!=="Cart"&&<Started/>}
+   {active!=="Cart"&&<Priceing setactive={setactive}  />}
+   
    <Footer></Footer>
     </>
   )
