@@ -11,7 +11,7 @@ const Started = () => {
  <div className="card bg-base-100 w-full  shadow-sm p-10 hover:translate-y-0.5 hover:shadow-lg shadow-purple-500/50 ">
   <div className="card-body flex justify-center items-center">
   <div className='bg-purple-500/60 rounded-full flex justify-center items-center w-16 h-16'>
-  <img src='/src/assets/user.png' className='w-10 h-10' />
+  <img src='/user.png' className='w-10 h-10' />
   </div>
     <h2 className="card-title">Create Account</h2>
     <p className='text-center'>Sign up for free in seconds. No credit card required to get started.</p>
@@ -21,7 +21,7 @@ const Started = () => {
  <div className="card bg-base-100 w-full  shadow-sm p-10 hover:translate-y-0.5 hover:shadow-lg shadow-purple-500/50 ">
   <div className="card-body flex justify-center items-center">
   <div className='bg-purple-500/60 rounded-full flex justify-center items-center w-16 h-16'>
-  <img src='/src/assets/package.png' className='w-10 h-10' />
+  <img src='/package.png' className='w-10 h-10' />
   </div>
     <h2 className="card-title">Choose Products</h2>
     <p className='text-center'>Browse our catalog and select the toolsthat fit your needs.</p>
@@ -31,7 +31,7 @@ const Started = () => {
  <div className="card bg-base-100 w-full  shadow-sm p-10 hover:translate-y-0.5 hover:shadow-lg shadow-purple-500/50 ">
   <div className="card-body flex justify-center items-center">
   <div className='bg-purple-500/60 rounded-full flex justify-center items-center w-16 h-16'>
-  <img src='/src/assets/rocket.png' className='w-10 h-10' />
+  <img src='/rocket.png' className='w-10 h-10' />
   </div>
     <h2 className="card-title">Start Creating</h2>
     <p className='text-center'>Download and start using your premium tools immediately.</p>

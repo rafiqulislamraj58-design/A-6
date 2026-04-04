@@ -2,6 +2,7 @@ import React from 'react'
 const Start = ({ active, setactive }) => {
   return (
     <div className="flex justify-center gap-4 mt-5">
+
       <button
         onClick={() => setactive("Products")}
         className={`px-6 py-2 rounded-full transition ${
